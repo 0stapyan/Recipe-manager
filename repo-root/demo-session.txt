@@ -1,0 +1,47 @@
+login testuser
+change_plan Chef
+stock add Sugar 10 kg
+recipe add Soup
+recipe add Cake
+recipe add Test3
+recipe add Test4
+recipe add Test5
+recipe add Test6
+recipe add Test7
+recipe add Test8
+recipe add Test9
+recipe add Test10
+recipe add Test11
+change_plan Basic
+recipe add FailTest
+
+recipe add Tost
+recipe add-ingredient Tost Bread 1 slice
+stock add Bread 50 slice
+action missing Tost
+action cook Tost
+action cook Tost
+action cook Tost
+action cook Tost
+action cook Tost
+achievements list
+
+stock add Salt 1 kg
+stock add Pepper 500 g
+stock add Flour 50 kg
+stock add Milk 20 l
+stock add Butter 5 kg
+stock add Egg 100 pcs
+stock add Cheese 5 kg
+stock add Tomato 3 kg
+stock add Water 6 l
+stock add Sugar 90 kg
+achievements list
+stock info
+
+recipe add Pizza
+recipe add-ingredient Pizza Dough 500 g
+recipe add-ingredient Pizza Cheese 100 g
+plan add Pizza 2025-10-20 2
+plan list
+shopping export
